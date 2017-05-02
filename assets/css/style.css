@@ -263,8 +263,8 @@ h4 {
 }
 
 #aboutDiv,
-#contactDiv,
-#portfolioDiv {
+#contactDiv
+{
 	background-color: #ffffff;
 	float: left;
 	width: 40%;
@@ -277,8 +277,7 @@ h4 {
 	float: left;
 	width: 20%;
 	padding: 20px;
-	position: relative;
-	left: 30px;
+
 }
 
 	#bio-image {
@@ -308,6 +307,22 @@ a.navlink {
 	color: #cccccc;
 }
 
+#coding, 
+#gaming, 
+#sports, 
+#cooking, 
+#travel {
+	float: left;
+	margin-left: 10px;
+}
+
+#portfolioDiv {
+	float: left;
+	width: 30%;
+	padding: 20px;
+	margin-bottom: 50px;
+
+}
 
 
 }
@@ -337,7 +352,7 @@ a.navlink {
 
 	#mainContent {
 		width: 768px;
-		margin: 30px 20px;
+		margin: 40px 20px;
     }
 
 	#aboutDiv,
@@ -352,7 +367,7 @@ a.navlink {
 	#connectDiv {
 		background-color: #ffffff;
 		float: left;
-		width: 90%;
+		width: 75%;
 		padding: 20px;
 		margin: 10px 20px;
 		position: relative;
@@ -370,13 +385,77 @@ a.navlink {
 	h3.small-font {
 		font-size: 20px;
 	}
+
+	#portfolioDiv {
+	float: left;
+	width: 75%;
+	padding: 20px;
+	margin-bottom: 50px;
+
+}
 }
 
 /* At screen width */
 @media screen and (max-width: 640px) {
 
+    body,header,footer {
+		width: 100%;
+	}
+
 	header {
 		position: static;
+		width: 640px;
 	}
+
+	#mainContent {
+		width: 640px;
+		margin: 20px 10px;
+	}
+
+	#headNameDiv {
+		float: none;
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	#headName {
+		position: relative;
+		left: -20px;
+	}
+
+	#headNavDiv {
+		width: 100%;
+		clear: both;
+		position: relative;
+		left: 20px;
+		font-size: 30px;
+		margin: auto 1px;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	a.navlink {
+		font-size: 16px;
+		padding: 5px 60px;
+		width: 20%;
+	}
+
+	p {
+		float: left;
+	}
+
+	#bio-image {
+		width: 520px;
+		height: 400px;
+	}
+
+
+
+	
+
+
 
 }
