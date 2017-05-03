@@ -237,6 +237,7 @@ h4 {
 
 /* At screen width */
 @media screen and (max-width: 980px) {
+
 	body,header,footer {
 		width: 100%;
 	}
@@ -251,15 +252,16 @@ h4 {
 
 
     #headNavDiv {
+    	float: right;
     	position: relative;
-    	left: 80px;
+    	left: 50px;
 		margin: 0 auto;
-		width: 50%;
+		width: 40%;
 	}
 
 #mainContent {
 	width: 960px;
-	margin: 50px 100px 20px 100px;
+	margin: 50px 100px;
 }
 
 #aboutDiv,
@@ -295,9 +297,9 @@ h4 {
     	margin-left:10px;
     }
 	
-	h3.small-font {
-		font-size: 16px;
-	}
+/*	#small-font {
+		font-size: 0.6em;
+	}*/
 	
 a.navlink {
 	text-decoration: none;
@@ -324,6 +326,18 @@ a.navlink {
 
 }
 
+#txtName,
+#txtEmail {
+	width: 340px;
+	height: 2em;
+	margin: 0px 20px 10px 20px;
+}
+
+#txtMessage {
+	width: 340px;
+	margin: 0px 20px 10px 20px;
+}
+
 
 }
 
@@ -331,7 +345,7 @@ a.navlink {
 @media screen and (max-width: 768px) {
 
 	body,header,footer {
-		width: 768px;
+		width: 100%;
 	}
 
 	p {
@@ -345,10 +359,13 @@ a.navlink {
 
 
     #headNavDiv {
-		float: right;
+		float: left;
 		margin-right: 5px;
-	}
+		width: 50%;
+		position: relative;
+    	left: 120px;
 
+	}
 
 	#mainContent {
 		width: 768px;
@@ -356,12 +373,19 @@ a.navlink {
     }
 
 	#aboutDiv,
-	#contactDiv,
 	#portfolioDiv {
 		background-color: #ffffff;
 		float: left;
 		width: 85%;
 		padding: 20px;
+	}
+
+	#contactDiv {
+		background-color: #ffffff;
+		float: left;
+		width: 85%;
+		padding: 20px;	
+		height: 100%	
 	}
 
 	#connectDiv {
@@ -380,10 +404,6 @@ a.navlink {
 		width: 250px;
 		height: 200px;
 		float: left;
-	}
-
-	h3.small-font {
-		font-size: 20px;
 	}
 
 	#portfolioDiv {
@@ -419,6 +439,42 @@ h4 {
 #travel {
 	width: 290px;
 } 
+
+#txtName,
+#txtEmail {
+	width: 608px;
+	height: 2em;
+	margin: 0px 20px 10px 20px;
+	float: left;
+}
+
+#txtMessage {
+	width: 608px;
+	margin: 0px 20px 10px 20px;
+	float: left;
+}
+
+label {
+	float: left;
+	margin-left: 10px;
+	color: #808080;
+	padding: 10px;
+	font-size: 16px;
+
+}
+
+button {
+	margin-left: 20px;
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+}
 
 }
 
@@ -528,6 +584,19 @@ h4 {
 	width: 500px;
 } 
 	
+	#txtName,
+#txtEmail {
+	width: 498px;
+	height: 2em;
+	margin: 0px 20px 10px 20px;
+	float: left;
+}
+
+#txtMessage {
+	width: 498px;
+	margin: 0px 20px 10px 20px;
+	float: left;
+}
 
 
 
